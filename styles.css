@@ -44,7 +44,7 @@ body {
   #botao-comprar {
     padding: 20px 40px;
     font-size: 20px;
-    background-color: #040668;
+    background-color: #45a049;
     color: white;
     border: none;
     border-radius: 25px; /* Bordas arredondadas */
@@ -54,7 +54,7 @@ body {
 }
 
 #botao-comprar:hover {
-  background-color: #45a049; /* Cor de destaque ao passar o mouse */
+  background-color:#040668 ; /* Cor de destaque ao passar o mouse */
 }
 
 .botao-clicked {
