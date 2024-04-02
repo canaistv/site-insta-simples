@@ -32,7 +32,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 150px; /* Maior distância do botão */
-  margin-top: -50px; /* Distância do topo da página */
+  margin-top: -30px; /* Distância do topo da página */
   }
   
   .circle-image img {
