@@ -12,6 +12,10 @@ body {
     height: 100%;
     object-fit: cover; /* Mantém a proporção original do vídeo e ajusta para preencher o contêiner */
     z-index: -1;
+
+          /* Adicionando controle de zoom */
+  transform: scale(1); /* Ajuste o valor conforme necessário para aumentar ou diminuir o zoom */
+  transform-origin: center center; /* Garante que o vídeo seja redimensionado a partir do centro */
   }
   
   .container {
