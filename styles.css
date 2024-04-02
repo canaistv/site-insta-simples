@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow: hidden; /* Remover rolagem */
   }
   
   #video-background {
@@ -10,20 +11,21 @@ body {
     bottom: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Mantém a proporção original do vídeo e ajusta para preencher o contêiner */
+    object-fit: cover;
     z-index: -1;
-
-      /* Adicionando controle de zoom */
-  transform: scale(1.0); /* Ajuste o valor conforme necessário para aumentar ou diminuir o zoom */
-  transform-origin: center center; /* Garante que o vídeo seja redimensionado a partir do centro */
   }
   
   .container {
+    position: fixed; /* Tornar o contêiner fixo */
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Remover rolagem */
   }
   
   .circle-image {
