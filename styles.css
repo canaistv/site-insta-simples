@@ -31,7 +31,7 @@ body {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 100px; /* Maior distância do botão */
+    margin-bottom: 150px; /* Maior distância do botão */
   margin-top: -50px; /* Distância do topo da página */
   }
   
@@ -51,6 +51,9 @@ body {
   cursor: pointer;
   transition: background-color 0.3s, box-shadow 0.3s; /* Adicionando transição para a cor de fundo e a sombra */
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra suave */
+      text-decoration: none; /* Remover sublinhado */
+  font-weight: bold; /* Fonte mais forte */
+  font-family: 'Roboto', sans-serif; /* Nova fonte */
 }
 
 #botao-comprar:hover {
